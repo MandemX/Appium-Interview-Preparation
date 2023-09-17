@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="general_Store.operations">
+        <methods>
+          <include name="tear_Down"/>
+          <include name="rendering_handling"/>
+          <include name="validate_The_Items_In_Cart_Equal_To_Summation"/>
+          <include name="launch_Server"/>
+        </methods>
+      </class> <!-- general_Store.operations -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
